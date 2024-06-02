@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+  
+}
+
+header {
+    background: url('header-background.jpg') no-repeat center center/cover;
+    color: rgb(21, 143, 63);
+    text-align: center;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background: rgba(14, 141, 84, 0.6);
+    position: relative;                                                     
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* text-align: center; */
+    padding: 0 30px;
+}
+
+
+.about p{
+    padding: 10px;
+    justify-content: center;
+    text-align: left;
+}
+.about h3{
+    padding: 20px;
+    justify-content: center;
+    text-align: left;
+}
+.Right-about {
+    padding: 20px 40px; 
+
+}
+.Right-about img{
+
+height: 450px;
+width: 450px;
+
+}
+.logo img {
+    margin: 05px;
+    height: 60px;
+    align-items: center;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.nav-list a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.header-content {
+    background-image: url("smart-agriculture-iot-with-hand-planting-tree-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px;
+}
+
+.header-content h1 {
+    color: #ffffff;
+    font-size: 48px;
+    margin: 0;
+}
+
+.header-content h2 {
+    color: black;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.header-content .button {
+    background: #bf1919;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.header-content .button:hover {
+    background: #e68900;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section .button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+section .button:hover {
+    background: #45a049;
+}
+.sub {
+display: contents;
+}
+.sub h1 {
+    text-align: center;
+    color: #45a049;
+    
+}
+.features{
+    display: flex;
+}
+
+.feature {
+    /* display: inline-block; */
+
+    margin: 0 1.5%;
+    height: 500px;
+    width: 500px;
+}
+
+.feature img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
